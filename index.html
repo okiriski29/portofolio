@@ -9,15 +9,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Icon Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- CSS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio | Oki Riski Fatulloh</title>
+    <title>My Portofolio | Oki Riski Fatulloh</title>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top" style="background-color: #3d8ddd">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #177de4">
       <div class="container">
-        <a class="navbar-brand" href="#">Oki Riski Fatulloh</a>
+        <a class="navbar-brand" href="#home">Oki Riski Fatulloh</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,8 +45,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/Foto.png" alt="" width="250" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Oki Riski Fatulloh</h1>
-      <p class="lead">Saya merupakan seorang mahasiswa Teknik Informatik di Universitas Islam Negeri Syarif Hidayatullah Jakarta <i class="mdi mdi-sort-numeric-ascending-variant:"></i></p>
+      <h1 class="display-4"><b>Oki Riski Fatulloh</b></h1>
+      <p class="lead"><i class="mdi mdi-sort-numeric-ascending-variant:"></i></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -63,12 +65,12 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-delay="50">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni pariatur totam unde repellendus ipsa, labore, a consequatur, itaque laboriosam tempora? Illo fugiat id corrupti expedita eligendi! Rem, natus molestias.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="250">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus sapiente, quos itaque delectus laboriosam natus laborum atque reiciendis. Alias libero eos porro numquam assumenda.</p>
           </div>
         </div>
@@ -92,7 +94,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="100">
               <img src="img/projects1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -100,7 +102,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="300">
               <img src="img/projects2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +110,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="500">
               <img src="img/projects3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="200">
               <img src="img/projects4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -124,7 +126,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-up" data-aos-delay="400">
               <img src="img/projects5.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,6 +144,61 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/1.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/2.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/3.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/4.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/5.jpg" alt="Gambar 1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/6.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/7.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/8.jpg" alt="Gambar 6" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -193,6 +250,29 @@
     </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll('.gallery-img');
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 500;
+      });
+      AOS.init({
+        once: true,
+        duration: 1000,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 5, delay: 1.5, text: 'Saya merupakan seorang mahasiswa Teknik Informatik di Universitas Islam Negeri Syarif Hidayatullah Jakarta' });
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 90, y: -200, opacity: 0 });
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back(3)' });
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxQO0V0OKDpPjEqxil8a9N88LGSeNWAenOBQGkgqL4SwYrjjdcA2nRmJVzLr5HOPgRACw/exec';
       const form = document.forms['contact-form'];
